@@ -1,6 +1,37 @@
 body{
     background: linear-gradient(to bottom, black, black,rgb(104, 104, 104));
 }
+
+a{
+
+}
+
+.menu-wrap{
+    background-color: rgba(0, 0, 0, 0.77);
+    margin-top: 2.2em;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    width: -webkit-fill-available;
+    display: none;
+}
+
+.menu>header{
+    z-index: 2;
+}
+
+.menu-wrap>div>*{
+    color: white;
+    text-align: justify;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu-wrap>div>*:hover
+{
+    background-color: tomato;
+}
+
 .bnrs-bnrs{
     /* 전체 bnrs 박스 가로 길이 */
     width: 300%;
@@ -145,7 +176,7 @@ body{
 }
 
 .gamelis:hover{
-background:linear-gradient(to right, rgba(0, 0, 0, 0.187), rgba(255, 255, 255, 0.256)) ;
+background:linear-gradient(to left, rgba(0, 0, 0, 0.187), rgba(255, 255, 255, 0.256)) ;
 }
 
 .gameImg{
@@ -153,14 +184,10 @@ background:linear-gradient(to right, rgba(0, 0, 0, 0.187), rgba(255, 255, 255, 0
 }
 
 .content-container{
+    width: 100%;
     margin-left: 30px;
     margin-right: 30px;
     color: white;
-}
-
-.content-container>.lwitw{
-    position: relative;
-    left: 50%;
 }
 
 .content-container>article{
@@ -180,3 +207,4 @@ margin-top: 10px;
     text-align: left;
     margin: 10;
 }
+
