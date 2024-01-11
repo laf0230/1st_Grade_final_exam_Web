@@ -1,0 +1,182 @@
+body{
+    background: linear-gradient(to bottom, black, black,rgb(104, 104, 104));
+}
+.bnrs-bnrs{
+    /* 전체 bnrs 박스 가로 길이 */
+    width: 300%;
+    transition: 1s;
+    display: flex;
+}
+
+.main{
+    overflow: hidden;
+    text-align: center;
+    height: auto;
+}
+
+.bnr{
+    height: auto;
+    width: 100%;
+}
+
+.bnr video{
+    width: 100%;
+}
+
+.info{
+    position: absolute;
+    background-color: rgb(0 0 0 / 77%);
+    border: 10px;
+    width: 100%;
+    color: white;
+    top: 7%;
+}
+
+.info>h3{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 32px;
+}
+
+.blocker {
+    /* 복사 방지 블로커 */
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    border: 0 solid;
+    background-color: #00000010;
+    z-index: 3;
+}
+
+.btn{
+    position: absolute;
+    top: 38%;
+    width: 440px;
+    z-index: 4;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    right: 35px;
+}
+
+/* 이미지 커서 변경 */
+.btn-img{
+    cursor: pointer;
+}
+
+/* 버튼 이미지> 이미지 */
+.btn-img>img{
+    border-radius: 10px;
+    height: 65px;
+}
+/* 이미지 호버 */
+.btn-img>img:hover{
+    transition: 0.2s;
+    height: 80px;
+}
+.bnr-btn{
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.445);
+    border: 2px solid gray;
+    justify-content: space-between;
+    display: flex;
+    line-height: 50%;
+    position: absolute;
+    border-radius: 10px;
+    width: 200px;
+    top: 86%;
+    z-index: 2;
+}
+.lb{
+    visibility: hidden;
+    color: rgba(0, 0, 0, 0);
+    content: '<';
+}
+
+.rb{
+    visibility: hidden;
+    content: '<';
+}
+.btnbg{
+    display: flex;
+}
+.btnbg>label>button:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btnbg>label>button{
+    background-color: #00000033;
+    color: #00000000;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.container{
+    height: auto;
+}
+
+.container>h1{
+    color: white;
+    font-size:50px;
+    margin-top: 126px;
+}
+
+.content{
+    margin: 0;
+    height: 100%;
+}
+
+.gamelis{
+    background-color: #00000033;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border: 3px solid black;
+    border-radius: 15px;
+    z-index: 2;
+    display: flex;
+    cursor: pointer;
+}
+
+.gamelis:hover{
+background:linear-gradient(to right, rgba(0, 0, 0, 0.187), rgba(255, 255, 255, 0.256)) ;
+}
+
+.gameImg{
+    border-radius: 10px;
+}
+
+.content-container{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.content-container>.lwitw{
+    position: relative;
+    left: 50%;
+}
+
+.content-container>article{
+text-align: left;
+margin-top: 10px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    border-top: 2px solid black;
+    margin-top: 40px;
+    height: 12%;
+}
+
+.footer>p{
+    text-align: left;
+    margin: 10;
+}
